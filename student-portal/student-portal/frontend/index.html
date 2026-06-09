@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Sync Portal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Register Your Profiles</h2>
+        <div class="form-group">
+            <input type="text" id="name" placeholder="Full Name">
+            <input type="text" id="gh" placeholder="GitHub Username">
+            <input type="text" id="lc" placeholder="LeetCode Username">
+            <input type="text" id="hr" placeholder="HackerRank Username">
+            <button onclick="submitData()">Fetch and Save Stats</button>
+        </div>
+        <p id="status-msg"></p>
+        <br>
+        <a href="dashboard.html">Go to Leaderboard →</a>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

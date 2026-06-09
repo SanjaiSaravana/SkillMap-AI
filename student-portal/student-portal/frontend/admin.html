@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Admin View</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="loadStudents()">
+    <div class="container" style="max-width: 900px;">
+        <h1>Student Leaderboard</h1>
+        <table border="1" id="studentTable" style="width:100%; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>GitHub Repos</th>
+                    <th>LeetCode Solved</th>
+                    <th>HackerRank</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script>
+        async function loadStudents() {
+            const res = await fetch('http://localhost:5000/api/all-students');
+            const students = await res.json();
+            const tbody = document.querySelector('#studentTable tbody');
+            
+            tbody.innerHTML = students.map(s => `
+                <tr>
+                    <td>${s.name}</td>
+                    <td>${s.stats.github_repos}</td>
+                    <td>${s.stats.leetcode_solved}</td>
+                    <td><a href="https://hackerrank.com/${s.hackerrank_user}" target="_blank">View Profile</a></td>
+                </tr>
+            `).join('');
+        }
+    </script>
+</body>
+</html>

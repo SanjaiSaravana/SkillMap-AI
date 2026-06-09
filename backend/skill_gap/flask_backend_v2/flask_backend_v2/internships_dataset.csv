@@ -1,0 +1,301 @@
+company_name,role,skills_required,salary_package,domain
+CyberEdge,Web Developer Intern,"JavaScript, React, HTML",42k INR/month,Web Development
+CloudWorks,Blockchain Developer Intern,"Solidity, Smart Contracts, Ethereum",36k INR/month,Blockchain
+VisionTech,Cloud Engineer Intern,"AWS, Azure, Kubernetes",29k INR/month,Cloud Computing
+AI Labs,Data Analyst Intern,"Excel, SQL, Data Visualization",16k INR/month,Data Science
+BlockChainX,Blockchain Developer Intern,"Smart Contracts, Ethereum, Cryptography",15k INR/month,Blockchain
+NetSecure,Web Developer Intern,"HTML, React, JavaScript",24k INR/month,Web Development
+Webify Solutions,DevOps Intern,"Linux, CI/CD, Kubernetes",25k INR/month,DevOps
+CyberEdge,Computer Vision Intern,"Image Processing, Python, Deep Learning",43k INR/month,Computer Vision
+IoT Systems,Cybersecurity Intern,"Networking, Linux, Penetration Testing",44k INR/month,Cybersecurity
+IoT Systems,IoT Developer Intern,"C++, Arduino, Raspberry Pi",47k INR/month,Internet of Things
+DataSphere,Cybersecurity Intern,"Networking, Penetration Testing, Linux",38k INR/month,Cybersecurity
+IoT Systems,Cloud Engineer Intern,"AWS, Azure, Docker",25k INR/month,Cloud Computing
+VisionTech,Cybersecurity Intern,"Firewalls, Penetration Testing, Linux",28k INR/month,Cybersecurity
+DataSphere,Computer Vision Intern,"Python, Deep Learning, OpenCV",26k INR/month,Computer Vision
+DataSphere,Software Engineering Intern,"OOP, Agile, C++",12k INR/month,Software Engineering
+IoT Systems,Software Engineering Intern,"Java, OOP, Agile",40k INR/month,Software Engineering
+DataSphere,AI Research Intern,"Machine Learning, PyTorch, Python",49k INR/month,Artificial Intelligence
+BlockChainX,Network Engineer Intern,"Linux, Wireshark, Networking Protocols",41k INR/month,Networking
+DataSphere,Cloud Engineer Intern,"Kubernetes, AWS, Azure",48k INR/month,Cloud Computing
+VisionTech,Software Engineering Intern,"Java, OOP, C++",16k INR/month,Software Engineering
+CloudWorks,Cloud Engineer Intern,"AWS, Docker, Azure",31k INR/month,Cloud Computing
+CyberEdge,DevOps Intern,"Linux, CI/CD, Docker",34k INR/month,DevOps
+NetSecure,Computer Vision Intern,"Python, Image Processing, OpenCV",24k INR/month,Computer Vision
+TechNova,Computer Vision Intern,"Image Processing, OpenCV, Python",28k INR/month,Computer Vision
+IoT Systems,Computer Vision Intern,"Image Processing, OpenCV, Deep Learning",42k INR/month,Computer Vision
+DataSphere,Computer Vision Intern,"Image Processing, Python, Deep Learning",20k INR/month,Computer Vision
+IoT Systems,Cybersecurity Intern,"Linux, Firewalls, Penetration Testing",14k INR/month,Cybersecurity
+BlockChainX,Blockchain Developer Intern,"Cryptography, Smart Contracts, Solidity",21k INR/month,Blockchain
+CyberEdge,Cloud Engineer Intern,"Docker, Azure, Kubernetes",46k INR/month,Cloud Computing
+DataSphere,Computer Vision Intern,"Image Processing, OpenCV, Python",35k INR/month,Computer Vision
+CyberEdge,Data Analyst Intern,"SQL, Python, Data Visualization",47k INR/month,Data Science
+VisionTech,IoT Developer Intern,"Arduino, Embedded Systems, C++",27k INR/month,Internet of Things
+VisionTech,Cybersecurity Intern,"Networking, Penetration Testing, Linux",38k INR/month,Cybersecurity
+CloudWorks,Cybersecurity Intern,"Penetration Testing, Networking, Linux",32k INR/month,Cybersecurity
+TechNova,Blockchain Developer Intern,"Solidity, Smart Contracts, Cryptography",31k INR/month,Blockchain
+CloudWorks,Software Engineering Intern,"Agile, C++, OOP",15k INR/month,Software Engineering
+TechNova,Blockchain Developer Intern,"Solidity, Smart Contracts, Cryptography",24k INR/month,Blockchain
+VisionTech,Blockchain Developer Intern,"Smart Contracts, Cryptography, Solidity",39k INR/month,Blockchain
+VisionTech,Cloud Engineer Intern,"AWS, Docker, Azure",29k INR/month,Cloud Computing
+DataSphere,DevOps Intern,"Linux, CI/CD, Kubernetes",13k INR/month,DevOps
+AI Labs,AI Research Intern,"Python, TensorFlow, Machine Learning",33k INR/month,Artificial Intelligence
+TechNova,IoT Developer Intern,"C++, Arduino, Embedded Systems",12k INR/month,Internet of Things
+AI Labs,Cybersecurity Intern,"Penetration Testing, Networking, Firewalls",35k INR/month,Cybersecurity
+NetSecure,Web Developer Intern,"JavaScript, React, HTML",11k INR/month,Web Development
+CyberEdge,Web Developer Intern,"JavaScript, React, CSS",40k INR/month,Web Development
+AI Labs,Computer Vision Intern,"Image Processing, OpenCV, Deep Learning",18k INR/month,Computer Vision
+Webify Solutions,IoT Developer Intern,"Raspberry Pi, Arduino, Embedded Systems",10k INR/month,Internet of Things
+NetSecure,AI Research Intern,"TensorFlow, PyTorch, Machine Learning",22k INR/month,Artificial Intelligence
+AI Labs,Web Developer Intern,"React, HTML, JavaScript",11k INR/month,Web Development
+DataSphere,Data Analyst Intern,"Excel, Data Visualization, SQL",46k INR/month,Data Science
+DataSphere,Cloud Engineer Intern,"Docker, AWS, Azure",36k INR/month,Cloud Computing
+BlockChainX,AI Research Intern,"Machine Learning, Python, TensorFlow",20k INR/month,Artificial Intelligence
+NetSecure,Data Analyst Intern,"Excel, SQL, Python",12k INR/month,Data Science
+VisionTech,Software Engineering Intern,"C++, Java, OOP",14k INR/month,Software Engineering
+TechNova,Computer Vision Intern,"Python, OpenCV, Image Processing",19k INR/month,Computer Vision
+AI Labs,Computer Vision Intern,"OpenCV, Deep Learning, Python",47k INR/month,Computer Vision
+DataSphere,Network Engineer Intern,"Linux, Wireshark, Networking Protocols",12k INR/month,Networking
+DataSphere,Computer Vision Intern,"Deep Learning, Image Processing, OpenCV",11k INR/month,Computer Vision
+IoT Systems,Cloud Engineer Intern,"Docker, Azure, AWS",34k INR/month,Cloud Computing
+VisionTech,Data Analyst Intern,"Python, Data Visualization, SQL",41k INR/month,Data Science
+Webify Solutions,Cybersecurity Intern,"Firewalls, Linux, Penetration Testing",15k INR/month,Cybersecurity
+Webify Solutions,Cybersecurity Intern,"Penetration Testing, Firewalls, Networking",45k INR/month,Cybersecurity
+NetSecure,DevOps Intern,"CI/CD, Docker, Linux",31k INR/month,DevOps
+VisionTech,Cloud Engineer Intern,"Kubernetes, Docker, Azure",32k INR/month,Cloud Computing
+CloudWorks,Cybersecurity Intern,"Linux, Networking, Penetration Testing",16k INR/month,Cybersecurity
+CloudWorks,Network Engineer Intern,"Networking Protocols, Linux, Cisco",24k INR/month,Networking
+VisionTech,Web Developer Intern,"React, CSS, JavaScript",15k INR/month,Web Development
+VisionTech,Network Engineer Intern,"Linux, Cisco, Wireshark",35k INR/month,Networking
+TechNova,DevOps Intern,"Docker, Kubernetes, CI/CD",44k INR/month,DevOps
+TechNova,Data Analyst Intern,"Excel, SQL, Python",42k INR/month,Data Science
+AI Labs,Cybersecurity Intern,"Penetration Testing, Firewalls, Networking",10k INR/month,Cybersecurity
+BlockChainX,Software Engineering Intern,"Java, C++, OOP",36k INR/month,Software Engineering
+DataSphere,Computer Vision Intern,"Image Processing, Deep Learning, Python",27k INR/month,Computer Vision
+IoT Systems,AI Research Intern,"Python, TensorFlow, Machine Learning",13k INR/month,Artificial Intelligence
+AI Labs,Data Analyst Intern,"SQL, Python, Excel",16k INR/month,Data Science
+CloudWorks,Data Analyst Intern,"Python, Data Visualization, SQL",22k INR/month,Data Science
+NetSecure,Data Analyst Intern,"Python, Excel, Data Visualization",17k INR/month,Data Science
+VisionTech,Network Engineer Intern,"Networking Protocols, Cisco, Wireshark",17k INR/month,Networking
+TechNova,Software Engineering Intern,"OOP, Agile, C++",49k INR/month,Software Engineering
+DataSphere,AI Research Intern,"Machine Learning, TensorFlow, Python",38k INR/month,Artificial Intelligence
+CyberEdge,Computer Vision Intern,"Image Processing, Python, Deep Learning",32k INR/month,Computer Vision
+DataSphere,IoT Developer Intern,"Raspberry Pi, Embedded Systems, Arduino",42k INR/month,Internet of Things
+VisionTech,Network Engineer Intern,"Cisco, Wireshark, Linux",26k INR/month,Networking
+CloudWorks,Blockchain Developer Intern,"Smart Contracts, Ethereum, Cryptography",15k INR/month,Blockchain
+Webify Solutions,Software Engineering Intern,"Agile, OOP, Java",12k INR/month,Software Engineering
+VisionTech,Software Engineering Intern,"Agile, C++, OOP",44k INR/month,Software Engineering
+AI Labs,Cloud Engineer Intern,"AWS, Docker, Kubernetes",12k INR/month,Cloud Computing
+TechNova,Network Engineer Intern,"Wireshark, Networking Protocols, Linux",14k INR/month,Networking
+TechNova,Data Analyst Intern,"SQL, Excel, Python",28k INR/month,Data Science
+BlockChainX,IoT Developer Intern,"Embedded Systems, Arduino, Raspberry Pi",14k INR/month,Internet of Things
+NetSecure,IoT Developer Intern,"Arduino, Raspberry Pi, Embedded Systems",29k INR/month,Internet of Things
+TechNova,Cloud Engineer Intern,"AWS, Azure, Kubernetes",12k INR/month,Cloud Computing
+AI Labs,Computer Vision Intern,"Deep Learning, Image Processing, Python",45k INR/month,Computer Vision
+AI Labs,DevOps Intern,"CI/CD, Linux, Kubernetes",13k INR/month,DevOps
+NetSecure,Web Developer Intern,"CSS, React, JavaScript",47k INR/month,Web Development
+BlockChainX,Cloud Engineer Intern,"Docker, Azure, AWS",38k INR/month,Cloud Computing
+BlockChainX,Network Engineer Intern,"Wireshark, Networking Protocols, Cisco",45k INR/month,Networking
+IoT Systems,Software Engineering Intern,"Java, C++, OOP",21k INR/month,Software Engineering
+AI Labs,Web Developer Intern,"React, JavaScript, HTML",46k INR/month,Web Development
+AI Labs,Network Engineer Intern,"Networking Protocols, Wireshark, Cisco",12k INR/month,Networking
+IoT Systems,AI Research Intern,"TensorFlow, PyTorch, Machine Learning",41k INR/month,Artificial Intelligence
+VisionTech,Blockchain Developer Intern,"Smart Contracts, Ethereum, Cryptography",15k INR/month,Blockchain
+CyberEdge,Cloud Engineer Intern,"AWS, Kubernetes, Docker",36k INR/month,Cloud Computing
+Webify Solutions,IoT Developer Intern,"Raspberry Pi, Embedded Systems, Arduino",13k INR/month,Internet of Things
+AI Labs,Blockchain Developer Intern,"Ethereum, Solidity, Smart Contracts",33k INR/month,Blockchain
+VisionTech,Software Engineering Intern,"C++, Agile, OOP",40k INR/month,Software Engineering
+NetSecure,Computer Vision Intern,"Python, Deep Learning, Image Processing",33k INR/month,Computer Vision
+TechNova,Software Engineering Intern,"Java, OOP, Agile",11k INR/month,Software Engineering
+BlockChainX,IoT Developer Intern,"C++, Arduino, Embedded Systems",13k INR/month,Internet of Things
+VisionTech,Cloud Engineer Intern,"AWS, Docker, Azure",46k INR/month,Cloud Computing
+Webify Solutions,AI Research Intern,"Machine Learning, Python, PyTorch",50k INR/month,Artificial Intelligence
+NetSecure,Software Engineering Intern,"Agile, Java, C++",20k INR/month,Software Engineering
+CyberEdge,Cybersecurity Intern,"Linux, Penetration Testing, Firewalls",40k INR/month,Cybersecurity
+TechNova,AI Research Intern,"PyTorch, TensorFlow, Python",12k INR/month,Artificial Intelligence
+CyberEdge,Blockchain Developer Intern,"Smart Contracts, Ethereum, Cryptography",20k INR/month,Blockchain
+AI Labs,IoT Developer Intern,"C++, Embedded Systems, Arduino",45k INR/month,Internet of Things
+BlockChainX,Computer Vision Intern,"Deep Learning, OpenCV, Image Processing",47k INR/month,Computer Vision
+DataSphere,Data Analyst Intern,"Python, Excel, SQL",40k INR/month,Data Science
+CyberEdge,Cybersecurity Intern,"Penetration Testing, Firewalls, Networking",11k INR/month,Cybersecurity
+CyberEdge,Computer Vision Intern,"Deep Learning, OpenCV, Python",18k INR/month,Computer Vision
+IoT Systems,AI Research Intern,"PyTorch, TensorFlow, Machine Learning",12k INR/month,Artificial Intelligence
+NetSecure,AI Research Intern,"TensorFlow, Python, PyTorch",16k INR/month,Artificial Intelligence
+VisionTech,Data Analyst Intern,"Python, Excel, SQL",20k INR/month,Data Science
+IoT Systems,Web Developer Intern,"React, HTML, JavaScript",17k INR/month,Web Development
+TechNova,Cybersecurity Intern,"Linux, Penetration Testing, Firewalls",34k INR/month,Cybersecurity
+BlockChainX,Web Developer Intern,"CSS, JavaScript, HTML",19k INR/month,Web Development
+Webify Solutions,Web Developer Intern,"React, CSS, HTML",10k INR/month,Web Development
+IoT Systems,Data Analyst Intern,"Data Visualization, Excel, SQL",41k INR/month,Data Science
+Webify Solutions,Software Engineering Intern,"Java, Agile, C++",13k INR/month,Software Engineering
+CloudWorks,Cybersecurity Intern,"Networking, Linux, Firewalls",45k INR/month,Cybersecurity
+CloudWorks,Software Engineering Intern,"Java, C++, OOP",22k INR/month,Software Engineering
+VisionTech,Data Analyst Intern,"Python, Data Visualization, SQL",40k INR/month,Data Science
+TechNova,AI Research Intern,"TensorFlow, Machine Learning, Python",10k INR/month,Artificial Intelligence
+NetSecure,Cloud Engineer Intern,"AWS, Azure, Docker",14k INR/month,Cloud Computing
+BlockChainX,Network Engineer Intern,"Wireshark, Networking Protocols, Linux",30k INR/month,Networking
+AI Labs,Software Engineering Intern,"OOP, Java, Agile",33k INR/month,Software Engineering
+CyberEdge,Network Engineer Intern,"Linux, Cisco, Networking Protocols",50k INR/month,Networking
+DataSphere,DevOps Intern,"Docker, CI/CD, Kubernetes",17k INR/month,DevOps
+CyberEdge,Blockchain Developer Intern,"Solidity, Cryptography, Ethereum",36k INR/month,Blockchain
+AI Labs,Software Engineering Intern,"Java, Agile, C++",37k INR/month,Software Engineering
+VisionTech,Network Engineer Intern,"Networking Protocols, Linux, Wireshark",11k INR/month,Networking
+AI Labs,Data Analyst Intern,"Excel, SQL, Data Visualization",42k INR/month,Data Science
+BlockChainX,AI Research Intern,"Python, PyTorch, Machine Learning",45k INR/month,Artificial Intelligence
+CloudWorks,Blockchain Developer Intern,"Ethereum, Solidity, Cryptography",39k INR/month,Blockchain
+AI Labs,Network Engineer Intern,"Networking Protocols, Wireshark, Cisco",49k INR/month,Networking
+IoT Systems,Software Engineering Intern,"Java, OOP, C++",45k INR/month,Software Engineering
+VisionTech,DevOps Intern,"Linux, Docker, CI/CD",14k INR/month,DevOps
+Webify Solutions,Data Analyst Intern,"Python, Excel, Data Visualization",29k INR/month,Data Science
+IoT Systems,Data Analyst Intern,"Data Visualization, Python, SQL",37k INR/month,Data Science
+IoT Systems,Computer Vision Intern,"OpenCV, Deep Learning, Python",30k INR/month,Computer Vision
+DataSphere,Cybersecurity Intern,"Linux, Networking, Firewalls",15k INR/month,Cybersecurity
+BlockChainX,Blockchain Developer Intern,"Smart Contracts, Solidity, Ethereum",28k INR/month,Blockchain
+CloudWorks,Web Developer Intern,"CSS, HTML, React",16k INR/month,Web Development
+NetSecure,Data Analyst Intern,"Excel, SQL, Data Visualization",34k INR/month,Data Science
+VisionTech,Blockchain Developer Intern,"Ethereum, Cryptography, Solidity",22k INR/month,Blockchain
+CloudWorks,Network Engineer Intern,"Wireshark, Linux, Networking Protocols",29k INR/month,Networking
+DataSphere,Cloud Engineer Intern,"AWS, Azure, Kubernetes",44k INR/month,Cloud Computing
+IoT Systems,AI Research Intern,"Python, Machine Learning, TensorFlow",40k INR/month,Artificial Intelligence
+IoT Systems,Data Analyst Intern,"SQL, Python, Excel",30k INR/month,Data Science
+AI Labs,Cloud Engineer Intern,"Kubernetes, AWS, Docker",30k INR/month,Cloud Computing
+CyberEdge,AI Research Intern,"TensorFlow, Machine Learning, PyTorch",38k INR/month,Artificial Intelligence
+CyberEdge,Cloud Engineer Intern,"Azure, Kubernetes, AWS",35k INR/month,Cloud Computing
+NetSecure,Software Engineering Intern,"Java, Agile, OOP",14k INR/month,Software Engineering
+DataSphere,AI Research Intern,"Python, Machine Learning, PyTorch",40k INR/month,Artificial Intelligence
+CloudWorks,Web Developer Intern,"HTML, React, CSS",13k INR/month,Web Development
+CloudWorks,Network Engineer Intern,"Networking Protocols, Linux, Wireshark",24k INR/month,Networking
+TechNova,Network Engineer Intern,"Networking Protocols, Cisco, Linux",24k INR/month,Networking
+NetSecure,Cybersecurity Intern,"Networking, Linux, Penetration Testing",35k INR/month,Cybersecurity
+CloudWorks,Software Engineering Intern,"C++, Agile, OOP",46k INR/month,Software Engineering
+AI Labs,Data Analyst Intern,"SQL, Python, Data Visualization",33k INR/month,Data Science
+TechNova,Cloud Engineer Intern,"Docker, Azure, Kubernetes",26k INR/month,Cloud Computing
+DataSphere,IoT Developer Intern,"Raspberry Pi, C++, Embedded Systems",38k INR/month,Internet of Things
+AI Labs,Cloud Engineer Intern,"Kubernetes, Azure, AWS",36k INR/month,Cloud Computing
+CloudWorks,Cloud Engineer Intern,"Azure, Kubernetes, Docker",50k INR/month,Cloud Computing
+NetSecure,Data Analyst Intern,"SQL, Excel, Python",40k INR/month,Data Science
+IoT Systems,IoT Developer Intern,"C++, Embedded Systems, Arduino",21k INR/month,Internet of Things
+BlockChainX,Network Engineer Intern,"Cisco, Networking Protocols, Wireshark",15k INR/month,Networking
+Webify Solutions,AI Research Intern,"PyTorch, Python, TensorFlow",45k INR/month,Artificial Intelligence
+CloudWorks,IoT Developer Intern,"Raspberry Pi, Arduino, C++",26k INR/month,Internet of Things
+CyberEdge,DevOps Intern,"Linux, Kubernetes, Docker",19k INR/month,DevOps
+BlockChainX,Computer Vision Intern,"Deep Learning, Image Processing, OpenCV",42k INR/month,Computer Vision
+CyberEdge,Blockchain Developer Intern,"Smart Contracts, Ethereum, Cryptography",29k INR/month,Blockchain
+Webify Solutions,IoT Developer Intern,"Arduino, Embedded Systems, Raspberry Pi",36k INR/month,Internet of Things
+AI Labs,DevOps Intern,"Docker, CI/CD, Linux",14k INR/month,DevOps
+TechNova,IoT Developer Intern,"C++, Embedded Systems, Arduino",29k INR/month,Internet of Things
+TechNova,Blockchain Developer Intern,"Cryptography, Solidity, Smart Contracts",45k INR/month,Blockchain
+AI Labs,Web Developer Intern,"React, JavaScript, CSS",27k INR/month,Web Development
+CloudWorks,AI Research Intern,"TensorFlow, Python, PyTorch",35k INR/month,Artificial Intelligence
+TechNova,Software Engineering Intern,"Agile, C++, OOP",32k INR/month,Software Engineering
+BlockChainX,Cybersecurity Intern,"Penetration Testing, Networking, Linux",15k INR/month,Cybersecurity
+NetSecure,Cybersecurity Intern,"Linux, Penetration Testing, Networking",44k INR/month,Cybersecurity
+CyberEdge,Computer Vision Intern,"OpenCV, Deep Learning, Image Processing",50k INR/month,Computer Vision
+VisionTech,IoT Developer Intern,"C++, Raspberry Pi, Arduino",28k INR/month,Internet of Things
+CloudWorks,IoT Developer Intern,"C++, Raspberry Pi, Arduino",32k INR/month,Internet of Things
+AI Labs,Data Analyst Intern,"SQL, Data Visualization, Excel",40k INR/month,Data Science
+NetSecure,Network Engineer Intern,"Linux, Cisco, Wireshark",32k INR/month,Networking
+DataSphere,Data Analyst Intern,"SQL, Python, Excel",11k INR/month,Data Science
+CyberEdge,Software Engineering Intern,"OOP, C++, Java",48k INR/month,Software Engineering
+VisionTech,IoT Developer Intern,"C++, Embedded Systems, Arduino",39k INR/month,Internet of Things
+CyberEdge,Cloud Engineer Intern,"Azure, Kubernetes, AWS",32k INR/month,Cloud Computing
+NetSecure,Blockchain Developer Intern,"Solidity, Cryptography, Smart Contracts",25k INR/month,Blockchain
+Webify Solutions,Cloud Engineer Intern,"Docker, AWS, Kubernetes",47k INR/month,Cloud Computing
+BlockChainX,Network Engineer Intern,"Linux, Networking Protocols, Cisco",22k INR/month,Networking
+AI Labs,Web Developer Intern,"JavaScript, HTML, React",26k INR/month,Web Development
+BlockChainX,Web Developer Intern,"JavaScript, HTML, CSS",25k INR/month,Web Development
+Webify Solutions,Web Developer Intern,"CSS, HTML, JavaScript",26k INR/month,Web Development
+IoT Systems,Software Engineering Intern,"Java, Agile, C++",47k INR/month,Software Engineering
+IoT Systems,Cloud Engineer Intern,"AWS, Docker, Kubernetes",26k INR/month,Cloud Computing
+TechNova,Blockchain Developer Intern,"Cryptography, Solidity, Ethereum",43k INR/month,Blockchain
+VisionTech,Cloud Engineer Intern,"AWS, Docker, Kubernetes",44k INR/month,Cloud Computing
+AI Labs,Software Engineering Intern,"Java, Agile, OOP",38k INR/month,Software Engineering
+CloudWorks,Web Developer Intern,"JavaScript, HTML, CSS",27k INR/month,Web Development
+NetSecure,Network Engineer Intern,"Networking Protocols, Linux, Cisco",23k INR/month,Networking
+NetSecure,Cloud Engineer Intern,"Kubernetes, AWS, Docker",16k INR/month,Cloud Computing
+DataSphere,Computer Vision Intern,"Python, Image Processing, OpenCV",43k INR/month,Computer Vision
+NetSecure,Data Analyst Intern,"Excel, Python, SQL",37k INR/month,Data Science
+BlockChainX,Cybersecurity Intern,"Networking, Firewalls, Penetration Testing",45k INR/month,Cybersecurity
+TechNova,DevOps Intern,"CI/CD, Kubernetes, Linux",29k INR/month,DevOps
+TechNova,AI Research Intern,"Machine Learning, TensorFlow, Python",24k INR/month,Artificial Intelligence
+CyberEdge,Web Developer Intern,"React, CSS, HTML",18k INR/month,Web Development
+CyberEdge,Blockchain Developer Intern,"Cryptography, Solidity, Smart Contracts",44k INR/month,Blockchain
+VisionTech,Cloud Engineer Intern,"Docker, Kubernetes, AWS",27k INR/month,Cloud Computing
+AI Labs,Blockchain Developer Intern,"Smart Contracts, Ethereum, Solidity",21k INR/month,Blockchain
+Webify Solutions,AI Research Intern,"TensorFlow, Python, PyTorch",27k INR/month,Artificial Intelligence
+DataSphere,Network Engineer Intern,"Linux, Wireshark, Cisco",34k INR/month,Networking
+NetSecure,AI Research Intern,"Machine Learning, Python, TensorFlow",21k INR/month,Artificial Intelligence
+AI Labs,IoT Developer Intern,"C++, Arduino, Embedded Systems",44k INR/month,Internet of Things
+NetSecure,AI Research Intern,"PyTorch, Python, TensorFlow",41k INR/month,Artificial Intelligence
+AI Labs,AI Research Intern,"Python, Machine Learning, PyTorch",11k INR/month,Artificial Intelligence
+CloudWorks,Software Engineering Intern,"Java, OOP, Agile",24k INR/month,Software Engineering
+IoT Systems,Computer Vision Intern,"OpenCV, Image Processing, Deep Learning",35k INR/month,Computer Vision
+Webify Solutions,Data Analyst Intern,"Python, SQL, Excel",34k INR/month,Data Science
+IoT Systems,Network Engineer Intern,"Linux, Networking Protocols, Wireshark",50k INR/month,Networking
+NetSecure,Data Analyst Intern,"Python, Data Visualization, Excel",18k INR/month,Data Science
+BlockChainX,Computer Vision Intern,"Deep Learning, Image Processing, OpenCV",41k INR/month,Computer Vision
+VisionTech,Blockchain Developer Intern,"Solidity, Smart Contracts, Cryptography",23k INR/month,Blockchain
+DataSphere,Data Analyst Intern,"Excel, SQL, Data Visualization",49k INR/month,Data Science
+AI Labs,Cybersecurity Intern,"Networking, Firewalls, Penetration Testing",35k INR/month,Cybersecurity
+AI Labs,Software Engineering Intern,"Java, OOP, Agile",45k INR/month,Software Engineering
+AI Labs,IoT Developer Intern,"C++, Raspberry Pi, Arduino",17k INR/month,Internet of Things
+BlockChainX,Cloud Engineer Intern,"Docker, Kubernetes, AWS",19k INR/month,Cloud Computing
+AI Labs,Network Engineer Intern,"Networking Protocols, Wireshark, Linux",12k INR/month,Networking
+TechNova,AI Research Intern,"Python, PyTorch, TensorFlow",43k INR/month,Artificial Intelligence
+CloudWorks,Cybersecurity Intern,"Firewalls, Penetration Testing, Networking",32k INR/month,Cybersecurity
+TechNova,Data Analyst Intern,"Data Visualization, Python, SQL",11k INR/month,Data Science
+CyberEdge,IoT Developer Intern,"Embedded Systems, Raspberry Pi, C++",17k INR/month,Internet of Things
+TechNova,Web Developer Intern,"HTML, React, JavaScript",30k INR/month,Web Development
+BlockChainX,Computer Vision Intern,"Python, OpenCV, Deep Learning",50k INR/month,Computer Vision
+VisionTech,Blockchain Developer Intern,"Smart Contracts, Ethereum, Solidity",40k INR/month,Blockchain
+VisionTech,Cybersecurity Intern,"Networking, Firewalls, Linux",17k INR/month,Cybersecurity
+CyberEdge,Software Engineering Intern,"OOP, C++, Agile",37k INR/month,Software Engineering
+VisionTech,Data Analyst Intern,"Data Visualization, Python, SQL",17k INR/month,Data Science
+AI Labs,Blockchain Developer Intern,"Cryptography, Smart Contracts, Solidity",46k INR/month,Blockchain
+Webify Solutions,Computer Vision Intern,"OpenCV, Deep Learning, Python",12k INR/month,Computer Vision
+IoT Systems,DevOps Intern,"CI/CD, Kubernetes, Docker",22k INR/month,DevOps
+BlockChainX,Network Engineer Intern,"Cisco, Wireshark, Linux",31k INR/month,Networking
+IoT Systems,Network Engineer Intern,"Cisco, Linux, Networking Protocols",41k INR/month,Networking
+DataSphere,Web Developer Intern,"HTML, CSS, React",13k INR/month,Web Development
+NetSecure,Cybersecurity Intern,"Networking, Firewalls, Penetration Testing",40k INR/month,Cybersecurity
+CloudWorks,Software Engineering Intern,"Agile, C++, OOP",14k INR/month,Software Engineering
+CyberEdge,Computer Vision Intern,"Image Processing, Deep Learning, OpenCV",26k INR/month,Computer Vision
+DataSphere,Network Engineer Intern,"Cisco, Linux, Networking Protocols",47k INR/month,Networking
+CyberEdge,Data Analyst Intern,"Data Visualization, SQL, Python",20k INR/month,Data Science
+BlockChainX,Cybersecurity Intern,"Networking, Penetration Testing, Linux",43k INR/month,Cybersecurity
+CyberEdge,DevOps Intern,"Linux, Kubernetes, Docker",10k INR/month,DevOps
+AI Labs,AI Research Intern,"TensorFlow, PyTorch, Machine Learning",33k INR/month,Artificial Intelligence
+AI Labs,AI Research Intern,"PyTorch, TensorFlow, Machine Learning",44k INR/month,Artificial Intelligence
+CloudWorks,Cybersecurity Intern,"Firewalls, Networking, Linux",12k INR/month,Cybersecurity
+BlockChainX,Network Engineer Intern,"Wireshark, Linux, Cisco",40k INR/month,Networking
+CyberEdge,Computer Vision Intern,"Image Processing, Deep Learning, OpenCV",14k INR/month,Computer Vision
+IoT Systems,Cybersecurity Intern,"Linux, Penetration Testing, Networking",41k INR/month,Cybersecurity
+NetSecure,Network Engineer Intern,"Linux, Networking Protocols, Cisco",50k INR/month,Networking
+DataSphere,Data Analyst Intern,"Python, Data Visualization, Excel",27k INR/month,Data Science
+BlockChainX,DevOps Intern,"Linux, Docker, Kubernetes",44k INR/month,DevOps
+NetSecure,Blockchain Developer Intern,"Smart Contracts, Cryptography, Ethereum",29k INR/month,Blockchain
+Webify Solutions,AI Research Intern,"Python, PyTorch, Machine Learning",40k INR/month,Artificial Intelligence
+DataSphere,Data Analyst Intern,"SQL, Python, Excel",29k INR/month,Data Science
+CyberEdge,Data Analyst Intern,"Python, Data Visualization, Excel",39k INR/month,Data Science
+BlockChainX,Network Engineer Intern,"Linux, Wireshark, Cisco",28k INR/month,Networking
+DataSphere,Computer Vision Intern,"Python, OpenCV, Deep Learning",13k INR/month,Computer Vision
+VisionTech,Cloud Engineer Intern,"Docker, Kubernetes, AWS",40k INR/month,Cloud Computing
+TechNova,Software Engineering Intern,"Java, Agile, OOP",20k INR/month,Software Engineering
+CyberEdge,Web Developer Intern,"React, JavaScript, HTML",29k INR/month,Web Development
+TechNova,Software Engineering Intern,"C++, OOP, Java",29k INR/month,Software Engineering
+Webify Solutions,Network Engineer Intern,"Wireshark, Networking Protocols, Cisco",45k INR/month,Networking
+AI Labs,Cybersecurity Intern,"Penetration Testing, Firewalls, Linux",13k INR/month,Cybersecurity
+BlockChainX,Software Engineering Intern,"C++, Agile, OOP",46k INR/month,Software Engineering
+CloudWorks,IoT Developer Intern,"Embedded Systems, C++, Raspberry Pi",44k INR/month,Internet of Things
+IoT Systems,AI Research Intern,"Machine Learning, PyTorch, TensorFlow",49k INR/month,Artificial Intelligence
+CloudWorks,Cybersecurity Intern,"Firewalls, Penetration Testing, Networking",35k INR/month,Cybersecurity
+AI Labs,Cloud Engineer Intern,"Kubernetes, Azure, AWS",37k INR/month,Cloud Computing
+CyberEdge,Software Engineering Intern,"Agile, OOP, C++",21k INR/month,Software Engineering
+IoT Systems,Software Engineering Intern,"OOP, Java, Agile",25k INR/month,Software Engineering
+CyberEdge,Blockchain Developer Intern,"Ethereum, Smart Contracts, Solidity",33k INR/month,Blockchain
+VisionTech,DevOps Intern,"Kubernetes, Docker, Linux",34k INR/month,DevOps
+AI Labs,IoT Developer Intern,"Embedded Systems, Arduino, Raspberry Pi",26k INR/month,Internet of Things
+NetSecure,IoT Developer Intern,"C++, Arduino, Raspberry Pi",29k INR/month,Internet of Things
+IoT Systems,Network Engineer Intern,"Networking Protocols, Cisco, Wireshark",20k INR/month,Networking
+CyberEdge,Computer Vision Intern,"Deep Learning, Python, Image Processing",33k INR/month,Computer Vision
+VisionTech,Network Engineer Intern,"Networking Protocols, Linux, Wireshark",11k INR/month,Networking

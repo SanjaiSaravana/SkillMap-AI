@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        @page { size: A4; margin: 0.5in; }
+        body { font-family: Arial, sans-serif; line-height: 1.4; color: #000; font-size: 11pt; }
+        .header { text-align: center; margin-bottom: 10pt; }
+        .name { font-size: 22pt; font-weight: bold; text-transform: uppercase; }
+        .section-title { font-size: 12pt; font-weight: bold; text-transform: uppercase; border-bottom: 1px solid #000; margin-top: 12pt; margin-bottom: 5pt; }
+        .entry-table { width: 100%; border-collapse: collapse; }
+        .entry-table td { font-weight: bold; padding: 0; }
+        .right { text-align: right; }
+        ul { margin: 2pt 0; padding-left: 18pt; }
+        li { margin-bottom: 2pt; text-align: justify; }
+        .bold { font-weight: bold; }
+        .italic { font-style: italic; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name">{{ name }}</div>
+        <div>{{ contact }}</div>
+        <div>{{ address }}</div>
+    </div>
+
+    {% if summary %}
+    <div class="section-title">Summary</div>
+    <ul>
+        {% for point in summary.split('\n') %}
+            {% if point.strip() %}
+                <li>{{ point.strip() }}</li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    <div class="section-title">Links</div>
+    <ul>
+        {% for tag, url in links_data %}
+            {% if tag and url %}
+                <li><span class="bold">{{ tag }}:</span> {{ url }}</li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+
+    <div class="section-title">Education</div>
+    {% for inst, year, desc in education %}
+    <div style="margin-bottom: 6pt;">
+        <table class="entry-table">
+            <tr>
+                <td>{{ inst }}</td>
+                <td class="right">{{ year }}</td>
+            </tr>
+        </table>
+        <div class="italic">{{ desc }}</div>
+    </div>
+    {% endfor %}
+
+    <div class="section-title">Experience</div>
+    {% for company, date, role, desc in experience %}
+    <div style="margin-bottom: 8pt;">
+        <table class="entry-table">
+            <tr>
+                <td>{{ company }}</td>
+                <td class="right">{{ date }}</td>
+            </tr>
+        </table>
+        <div class="italic">{{ role }}</div>
+        <ul>
+            {% for bullet in desc.split('\n') %}
+                {% if bullet.strip() %}
+                    <li>{{ bullet.strip().lstrip('•').strip() }}</li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+    {% endfor %}
+
+    <div class="section-title">Skills</div>
+    <ul>
+        <li><span class="bold">Languages and Frameworks:</span> {{ skills_lang }}</li>
+        <li><span class="bold">Areas of Interest:</span> {{ skills_aoi }}</li>
+        {% if skills_tools %}
+        <li><span class="bold">Tools:</span> {{ skills_tools }}</li>
+        {% endif %}
+    </ul>
+
+    <div class="section-title">Languages</div>
+    <ul>
+        <li>{{ languages }}</li>
+    </ul>
+</body>
+</html>

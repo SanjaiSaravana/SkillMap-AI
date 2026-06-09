@@ -1,0 +1,27 @@
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    position: relative;
+    border-top: 5px solid #007bff;
+}
+
+.rank {
+    font-weight: bold;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.meta {
+    margin-top: 15px;
+    font-size: 0.8rem;
+    color: #666;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+.stats p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+}

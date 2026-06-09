@@ -1,0 +1,3 @@
+@echo off
+echo Starting all servers using unified command...
+npm start

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Resume Builder</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background: #f8fafc; padding: 40px; color: #334155; }
+        .container { max-width: 850px; margin: auto; background: white; padding: 40px; border-radius: 12px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); }
+        h2 { border-left: 4px solid #2563eb; padding-left: 15px; margin-top: 30px; color: #1e293b; }
+        .group { border: 1px solid #e2e8f0; padding: 20px; border-radius: 8px; margin-bottom: 15px; background: #fff; }
+        input, textarea { width: 100%; padding: 12px; margin: 8px 0; border: 1px solid #cbd5e1; border-radius: 6px; }
+        button { cursor: pointer; border: none; border-radius: 6px; font-weight: 600; transition: 0.2s; }
+        .add-btn { background: #dcfce7; color: #166534; padding: 8px 16px; margin-bottom: 20px; }
+        .add-btn:hover { background: #bbf7d0; }
+        .generate-btn { background: #2563eb; color: white; width: 100%; padding: 18px; font-size: 1.1rem; margin-top: 30px; }
+        .generate-btn:hover { background: #1d4ed8; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Resume Architect</h1>
+        <form action="/generate" method="POST">
+            <h2>Header & Summary</h2>
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="text" name="contact" placeholder="Email | Phone | Graduation Year" required>
+            <input type="text" name="address" placeholder="Location (City, State)">
+            <textarea name="summary" rows="4" placeholder="Professional Summary (Enter in points, one per line)"></textarea>
+
+            <h2>Links & Portfolios</h2>
+            <div id="link-box">
+                <div class="group">
+                    <input type="text" name="link_tag" placeholder="Tag (e.g., LinkedIn, GitHub, Portfolio)">
+                    <input type="text" name="link_url" placeholder="URL (e.g., https://linkedin.com/in/...)">
+                </div>
+            </div>
+            <button type="button" class="add-btn" onclick="add('link-box')">+ Add Another Link</button>
+
+            <h2>Education</h2>
+            <div id="edu-box">
+                <div class="group">
+                    <input type="text" name="edu_inst" placeholder="Institution">
+                    <input type="text" name="edu_year" placeholder="Year">
+                    <input type="text" name="edu_desc" placeholder="Degree & Details">
+                </div>
+            </div>
+            <button type="button" class="add-btn" onclick="add('edu-box')">+ Add Education</button>
+
+            <h2>Experience</h2>
+            <div id="exp-box">
+                <div class="group">
+                    <input type="text" name="exp_company" placeholder="Company">
+                    <input type="text" name="exp_date" placeholder="Duration">
+                    <input type="text" name="exp_role" placeholder="Role">
+                    <textarea name="exp_desc" rows="4" placeholder="Achievements (One per line)"></textarea>
+                </div>
+            </div>
+            <button type="button" class="add-btn" onclick="add('exp-box')">+ Add Experience</button>
+
+            <h2>Skills & Languages</h2>
+            <input type="text" name="skills_lang" placeholder="Languages & Frameworks">
+            <input type="text" name="skills_aoi" placeholder="Areas of Interest">
+            <input type="text" name="skills_tools" placeholder="Tools">
+            <input type="text" name="languages" placeholder="Spoken Languages">
+
+            <button type="submit" class="generate-btn">Generate ATS Resume</button>
+        </form>
+    </div>
+
+    <script>
+        function add(id) {
+            let container = document.getElementById(id);
+            let clone = container.children[0].cloneNode(true);
+            clone.querySelectorAll('input, textarea').forEach(i => i.value = '');
+            container.appendChild(clone);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Leaderboard</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body onload="loadDashboard()">
+    <div class="container">
+        <header>
+            <h1>Student Leaderboard</h1>
+            <p>Live stats from GitHub & LeetCode</p>
+        </header>
+
+        <div id="leaderboard" class="card-grid">
+            <div class="loader">Fetching latest rankings...</div>
+        </div>
+
+        <div class="footer">
+            <button onclick="location.reload()">🔄 Refresh Page</button>
+            <br><br>
+            <a href="index.html">← Register New Student</a>
+        </div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

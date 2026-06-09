@@ -1,0 +1,130 @@
+from datetime import datetime
+from .extensions import db
+
+class User(db.Model):
+    __tablename__ = "users"
+    id = db.Column(db.Integer, primary_key=True)
+    user_uid = db.Column(db.String(32), unique=True, nullable=True)
+    name = db.Column(db.String(120), nullable=False)
+    email = db.Column(db.String(120), unique=True, nullable=True)
+    password_hash = db.Column(db.String(255), nullable=True)
+    role = db.Column(db.String(20), default="student")
+    leetcode_profile = db.Column(db.String(255), nullable=True)
+    github_profile = db.Column(db.String(255), nullable=True)
+    aspiring_role = db.Column(db.String(120), nullable=True)
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+
+class LeetCodeGithubSnapshot(db.Model):
+    __tablename__ = "lcgh_snapshots"
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("users.id"), nullable=False)
+    snapshot_date = db.Column(db.Date, nullable=False, index=True)
+    problems_solved = db.Column(db.Integer, default=0)
+    days_worked = db.Column(db.Integer, default=0)
+    projects_submitted = db.Column(db.Integer, default=0)
+    leetcode_score = db.Column(db.Float, default=0.0)
+    github_score = db.Column(db.Float, default=0.0)
+
+class CertificationProject(db.Model):
+    __tablename__ = "cert_proj"
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("users.id"), nullable=False)
+    domain = db.Column(db.String(120), nullable=False, index=True)
+    projects_done = db.Column(db.Integer, default=0)
+    certifications_done = db.Column(db.Integer, default=0)
+    computed_score = db.Column(db.Float, default=0.0)
+
+class StudentDailyScore(db.Model):
+    __tablename__ = "student_daily_scores"
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("users.id"), nullable=False, index=True)
+    score_date = db.Column(db.Date, nullable=False, index=True)
+
+    leetcode_score = db.Column(db.Float, default=0.0)
+    github_score = db.Column(db.Float, default=0.0)
+    cert_score = db.Column(db.Float, default=0.0)
+    project_score = db.Column(db.Float, default=0.0)
+
+    raw_problems_solved = db.Column(db.Integer, default=0)
+    raw_projects_submitted = db.Column(db.Integer, default=0)
+    raw_days_worked = db.Column(db.Integer, default=0)
+    raw_certs = db.Column(db.Integer, default=0)
+    raw_projects_done = db.Column(db.Integer, default=0)
+
+    total_score = db.Column(db.Float, default=0.0)
+    rank = db.Column(db.Integer, nullable=True)
+
+class ClusterRun(db.Model):
+    __tablename__ = "cluster_runs"
+    id = db.Column(db.Integer, primary_key=True)
+    run_date = db.Column(db.Date, nullable=False, index=True)
+    domain = db.Column(db.String(120), nullable=False, index=True)
+    k = db.Column(db.Integer, default=3)
+    label_names_json = db.Column(db.Text, nullable=True)
+    metadata_json = db.Column(db.Text, nullable=True)
+
+class ClusterMembership(db.Model):
+    __tablename__ = "cluster_memberships"
+    id = db.Column(db.Integer, primary_key=True)
+    cluster_run_id = db.Column(db.Integer, db.ForeignKey("cluster_runs.id"), nullable=False, index=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("users.id"), nullable=False, index=True)
+    cluster_label = db.Column(db.Integer, nullable=False)
+    confidence = db.Column(db.Float, default=0.0)
+    reasons_json = db.Column(db.Text, nullable=True)
+
+class Internship(db.Model):
+    __tablename__ = "internships"
+    id = db.Column(db.Integer, primary_key=True)
+    company_name = db.Column(db.String(120), nullable=False)
+    role = db.Column(db.String(160), nullable=False)
+    skills_required = db.Column(db.Text, nullable=False)
+    salary_package = db.Column(db.String(60), nullable=True)
+    domain = db.Column(db.String(120), nullable=False, index=True)
+
+class InternshipRecommendation(db.Model):
+    __tablename__ = "internship_recs"
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("users.id"), nullable=False, index=True)
+    internship_id = db.Column(db.Integer, db.ForeignKey("internships.id"), nullable=False, index=True)
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+    match_score = db.Column(db.Float, default=0.0)
+    explanation_json = db.Column(db.Text, nullable=True)
+
+class Resume(db.Model):
+    __tablename__ = "resumes"
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("users.id"), nullable=False, index=True)
+    file_path = db.Column(db.String(255), nullable=False)
+    parsed_text = db.Column(db.Text, nullable=True)
+    uploaded_at = db.Column(db.DateTime, default=datetime.utcnow)
+
+class ResumeJobMatch(db.Model):
+    __tablename__ = "resume_job_matches"
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("users.id"), nullable=False, index=True)
+    resume_id = db.Column(db.Integer, db.ForeignKey("resumes.id"), nullable=False, index=True)
+    job_description = db.Column(db.Text, nullable=False)
+    extracted_resume_skills = db.Column(db.Text, nullable=True)
+    extracted_jd_skills = db.Column(db.Text, nullable=True)
+    missing_skills = db.Column(db.Text, nullable=True)
+    match_score = db.Column(db.Float, default=0.0)
+    semantic_similarity = db.Column(db.Float, default=0.0)
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+
+class SkillProfile(db.Model):
+    __tablename__ = "skill_profiles"
+    user_id = db.Column(db.Integer, db.ForeignKey("users.id"), primary_key=True)
+    skills_json = db.Column(db.Text, nullable=False)
+    projects_summary = db.Column(db.Text, nullable=True)
+    aspiring_role = db.Column(db.String(120), nullable=True)
+    updated_at = db.Column(db.DateTime, default=datetime.utcnow)
+
+class LearningMap(db.Model):
+    __tablename__ = "learning_maps"
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("users.id"), nullable=False, index=True)
+    target_role = db.Column(db.String(120), nullable=False)
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+    roadmap_markdown = db.Column(db.Text, nullable=False)
+    roadmap_json = db.Column(db.Text, nullable=False)
+    based_on_json = db.Column(db.Text, nullable=True)

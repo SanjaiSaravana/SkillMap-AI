@@ -1,0 +1,127 @@
+/* Standard Reset for PDF Generation */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica', sans-serif; /* High readability for ATS */
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.3;
+    font-size: 11pt; /* Industry standard resume font size */
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Page Setup for WeasyPrint/PDF */
+@page {
+    size: A4;
+    margin: 0.6in 0.5in; /* Standard margins used in professional resumes */
+}
+
+.resume-container {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 12pt;
+}
+
+header h1 {
+    font-size: 22pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 4pt;
+}
+
+.contact-info {
+    font-size: 10pt;
+    margin-bottom: 2pt;
+}
+
+.contact-info span {
+    padding: 0 5px;
+}
+
+/* Section Formatting */
+section {
+    margin-top: 14pt;
+}
+
+h2 {
+    font-size: 13pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1.5px solid #000; /* Visual separator as seen in your PDF */ [cite: 5, 6]
+    margin-bottom: 6pt;
+    padding-bottom: 2pt;
+}
+
+/* Experience & Education Entries */
+.entry {
+    margin-bottom: 10pt;
+}
+
+.entry-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    font-size: 10.5pt;
+    margin-bottom: 3pt;
+}
+
+/* Bullet Points */
+ul {
+    margin-left: 18pt;
+    margin-top: 3pt;
+    list-style-type: disc;
+}
+
+li {
+    margin-bottom: 2pt;
+    text-align: justify;
+}
+
+/* Skills Section */
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4pt;
+}
+
+.skill-row {
+    display: block;
+}
+
+.skill-label {
+    font-weight: bold;
+}
+
+/* Links & Hyperlinks */
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* Print specific adjustments */
+@media print {
+    body {
+        background: none;
+    }
+    .no-print {
+        display: none;
+    }
+}

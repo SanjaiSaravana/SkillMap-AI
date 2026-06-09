@@ -1,0 +1,14 @@
+{
+  "name": "skillmap-ai-workspace",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently -n \"FLASK-R,FLASK-V2,FRONT-S,FRONT-G,INT-AI,RES-B,ST-BK,ST-FT\" -c \"bgBlue,bgBlueBright,bgGreen,bgGreenBright,bgMagenta,bgCyan,bgYellow,bgRed\" \"cd flask_backend && .\\venv\\Scripts\\python run.py\" \"cd backend/skill_gap/flask_backend_v2/flask_backend_v2 && .\\venv\\Scripts\\python run.py\" \"cd frontend/skillmap-ai && npm run dev\" \"cd backend/skill_gap/skillgap_frontend/skillgap_frontend && npm run dev\" \"cd ai-interviewer && .\\venv\\Scripts\\python app.py\" \"cd resume_builder && .\\venv\\Scripts\\python app.py\" \"cd student-portal/backend && node server.js\" \"cd student-portal/frontend && python -m http.server 5500\""
+  },
+  "dependencies": {
+    "framer": "^2.4.1",
+    "motion": "^12.29.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
